@@ -1,14 +1,18 @@
 body {
+
+
     font-family: Poppins;
-
-
-    display: grid;
-    justify-content: center;
 }
+
+
+
 
 .Banner-page {
 
-    width: 1321px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
     height: 646px;
     background-color: #161616;
     margin-top: 50px;
@@ -76,6 +80,7 @@ body {
     Width: 252px;
     Height: 64px;
     border-radius: 10px;
+    font-weight: 700;
 
 
 
@@ -86,6 +91,9 @@ body {
     background-color: #DD0000;
 }
 
+/* ----------------------------------------------
+-------------------------section-2--------------- 
+-------------------------------------------------*/
 .section-2 {
 
     display: grid;
@@ -93,6 +101,10 @@ body {
     width: 1321px;
 
     margin-bottom: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 
 
 }
@@ -110,9 +122,16 @@ body {
 
 }
 
+.fa-clock {
+
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
 .fa-comment-dots {
 
     margin-left: 25px;
+    margin-bottom: 15px;
 
 }
 
@@ -129,6 +148,13 @@ body {
 
     width: 100px;
     border-radius: 5px;
+    margin-left: 15px;
+
+}
+
+.Transfer p {
+
+    padding-left: 15px;
 }
 
 .Blogs {
@@ -139,7 +165,9 @@ body {
 
 }
 
-/* footer */
+/* ---------------------------------------------------
+-------------------------footer-----------------------
+------------------------------------------------------ */
 footer {
 
     background-color: #161616;
@@ -185,5 +213,8 @@ hr {
 
 .Footer {
 
+
     width: 100%;
+
+
 }
