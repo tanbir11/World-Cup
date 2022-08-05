@@ -221,3 +221,55 @@ hr {
 
 
 }
+
+/*---------------------------------------
+------------- Second Website-------------
+---------------------------------------- */
+
+.All-match {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.upcoming-match {
+
+    border: 1px solid #E8E8E8;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.team {
+    display: flex;
+
+
+}
+
+.team span {
+
+    margin-top: 95px;
+
+}
+
+.time h2 {
+
+    margin-left: 60px;
+    margin-bottom: 5px;
+
+}
+
+.time span {
+
+    margin-left: 80px;
+
+
+}
+
+.flag {
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+}
