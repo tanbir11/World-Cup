@@ -1,0 +1,189 @@
+body {
+    font-family: Poppins;
+
+
+    display: grid;
+    justify-content: center;
+}
+
+.Banner-page {
+
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+}
+
+.title {
+    color: white;
+
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-weight: 700;
+
+
+
+}
+
+.title p {
+
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+.Banner {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Banner-img img {
+
+    width: 581px;
+    height: 613px;
+    margin-left: 30%;
+    margin-top: 33px;
+    margin-right: 314px;
+}
+
+.title button {
+    display: grid;
+    background-color: #DD0000;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+
+.match {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    Width: 312px;
+    Height: 312px;
+    border-radius: 10px;
+}
+
+.match button {
+
+    margin: 20px 20px;
+
+    Width: 252px;
+    Height: 64px;
+    border-radius: 10px;
+
+
+
+
+}
+
+#Blog {
+    background-color: #DD0000;
+}
+
+.section-2 {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 1321px;
+
+    margin-bottom: 50px;
+
+
+}
+
+.Transfer {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    border: 1px solid #E8E8E8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.fa-comment-dots {
+
+    margin-left: 25px;
+
+}
+
+.Blogs {
+    margin-left: 20px;
+
+
+
+}
+
+.Transfer button {
+
+    margin-top: 10px;
+
+    width: 100px;
+    border-radius: 5px;
+}
+
+.Blogs {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+/* footer */
+footer {
+
+    background-color: #161616;
+    width: 100%;
+    color: aliceblue;
+    width: 100%;
+
+
+
+}
+
+
+footer h2 {
+
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+.end {
+
+    display: flex;
+
+    margin-left: 25%;
+    padding-bottom: 50px;
+
+}
+
+hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+
+
+}
+
+.Last-line {
+
+    margin-left: 20px;
+}
+
+.Footer {
+
+    width: 100%;
+}
