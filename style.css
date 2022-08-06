@@ -356,3 +356,74 @@ hr {
         flex-direction: column;
     }
 }
+
+/* ------------------------------------------------
+----------------Tablet device----------------------
+--------------------------------------------------- */
+
+
+@media screen and (min-width:689px) and (max-width:991px) {
+
+
+    .Banner-page {
+
+        width: 800px;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+
+        height: auto;
+        background-color: #161616;
+        margin-top: 50px;
+        border-radius: 30px;
+        margin-bottom: 50px;
+
+    }
+
+    .Banner {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Banner-img img {
+
+        width: 581px;
+        height: 613px;
+        margin-left: 10px;
+        margin-top: 33px;
+        margin-right: 314px;
+    }
+
+
+    .section-2 {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .match {
+        width: 800px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .Blogs {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+
+        background-color: #161616;
+        width: 1000px;
+        color: aliceblue;
+
+
+
+
+    }
+
+}
